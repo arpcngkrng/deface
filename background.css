@@ -1,0 +1,34 @@
+html {
+   overflow: hidden;
+  }
+  body {
+   background:#FFFFFF no-repeat;background-size:95%;background-attachment:fixed;
+   width: 100%;
+   height: 100%;
+   color: #000000;
+  }
+  #frm {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0%;
+   top: 0%;
+   font-size: 2em;
+   font-weight: bold;
+   font-family: Chiller;
+   background: #transparent;
+   overflow: hidden;
+   padding: 0.5em;
+  }
+  #frm span {
+   position: relative;
+   text-align: center;
+   z-index: 1;
+  }
+  #mtxform {
+   position: relative;
+   z-index: 10;
+  }
+  .hidden {
+   visibility: hidden;
+  }
